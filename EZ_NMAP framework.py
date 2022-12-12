@@ -1,14 +1,3 @@
-# Matthew Iorio // OPSC-540 // 28OCT22 // Final Project
-# Simple menu based system for running network scans
-
-# I designed this as a tool to help new users run scans against their own network
-# It currently feaures both NMAP and NIKTO, although it could be expanded to include more tools. 
-
-# In it's current design it is NOT a penetration testing tool since it utilizes localhost only.
-# However, this could easily to changed to include a whole host of tools and allow access outside of localhost.
-
-# I opt'ed to use some colors to help users navigate the cmd line interface and to create a custom look and feel. 
-
 # modules
 import os
 import sys
